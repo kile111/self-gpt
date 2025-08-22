@@ -1,17 +1,17 @@
 # Self-GPT: 超级整合助手
 
-A powerful, multi-modal AI assistant built with Streamlit, OpenAI GPT-5, Whisper, OCR, and web search integration. Supports file reading, voice input, real-time web search, and more.
+一个强大的多模态 AI 助手，基于 Streamlit、OpenAI GPT-5、Whisper、OCR 和网页搜索集成构建。支持文件读取、语音输入、实时网页搜索等多种功能。
 
 ## Features
 
-- **Chat with GPT-5**: Advanced reasoning, chain-of-thought, and customizable system prompts.
-- **File Upload & Parsing**: Supports PDF, DOCX, TXT, CSV, Excel, and image OCR (JPG/PNG).
-- **Voice Input**: Use your microphone for speech-to-text with Whisper.
-- **Text-to-Speech**: Converts AI answers to audio.
-- **Real-Time Web Search**: Integrates with SerpAPI for up-to-date information.
-- **Multi-Mode UI**: Chat, simultaneous interpretation, and real-time captioning.
-- **Session Memory**: Remembers chat history and can clear on demand.
-- **Secure API Key Handling**: Uses `.env` for sensitive keys.
+- **与 GPT-5 聊天**：支持高级推理、链式思维和自定义系统提示词。
+- **文件上传与解析**：支持 PDF、DOCX、TXT、CSV、Excel 及图片 OCR（JPG/PNG）。
+- **语音输入**：通过麦克风使用 Whisper 实现语音转文字。
+- **文本转语音**：将 AI 回复内容转换为音频。
+- **实时网页搜索**：集成 SerpAPI 获取最新信息。
+- **多模式界面**：支持聊天、同声传译和实时字幕。
+- **会话记忆**：记住聊天历史，可随时清除。
+- **安全 API 密钥管理**：通过 `.env` 文件存储敏感密钥。
 
 ## Installation
 
@@ -41,11 +41,11 @@ A powerful, multi-modal AI assistant built with Streamlit, OpenAI GPT-5, Whisper
 
 ## Usage
 
-- Open the Streamlit web UI in your browser.
-- Choose a mode: Chat, Simultaneous Interpretation, or Real-Time Captioning.
-- Upload files or images for parsing and OCR.
-- Use your microphone for voice input.
-- Ask questions, request web searches, or generate images.
+- 在浏览器中打开 Streamlit 网页界面。
+- 选择模式：聊天、同声传译或实时字幕。
+- 上传文件或图片进行解析和 OCR 识别。
+- 使用麦克风进行语音输入。
+- 提问、请求网页搜索或生成图片。
 
 ## File Support
 
