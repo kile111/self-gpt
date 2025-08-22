@@ -1,8 +1,8 @@
-# Self-GPT: 超级整合助手
+# Self-GPT：超级整合助手
 
 一个强大的多模态 AI 助手，基于 Streamlit、OpenAI GPT-5、Whisper、OCR 和网页搜索集成构建。支持文件读取、语音输入、实时网页搜索等多种功能。
 
-## Features
+## 功能特色
 
 - **与 GPT-5 聊天**：支持高级推理、链式思维和自定义系统提示词。
 - **文件上传与解析**：支持 PDF、DOCX、TXT、CSV、Excel 及图片 OCR（JPG/PNG）。
@@ -13,33 +13,33 @@
 - **会话记忆**：记住聊天历史，可随时清除。
 - **安全 API 密钥管理**：通过 `.env` 文件存储敏感密钥。
 
-## Installation
+## 安装方法
 
-1. **Clone the repository**
+1. **克隆仓库**
    ```bash
    git clone https://github.com/<your-username>/self-gpt.git
    cd self-gpt
    ```
 
-2. **Install dependencies**
+2. **安装依赖**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set up environment variables**
+3. **配置环境变量**
 
-   Create a `.env` file in the root directory:
+   在项目根目录下创建 `.env` 文件：
    ```
-   OPENAI_API_KEY=your_openai_api_key
-   SERP_API_KEY=your_serpapi_key
+   OPENAI_API_KEY=你的_openai_api_key
+   SERP_API_KEY=你的_serpapi_key
    ```
 
-4. **Run the app**
+4. **运行应用**
    ```bash
    streamlit run app.py
    ```
 
-## Usage
+## 使用说明
 
 - 在浏览器中打开 Streamlit 网页界面。
 - 选择模式：聊天、同声传译或实时字幕。
@@ -47,25 +47,25 @@
 - 使用麦克风进行语音输入。
 - 提问、请求网页搜索或生成图片。
 
-## File Support
+## 文件支持
 
-- **Text**: PDF, DOCX, TXT, CSV, XLSX
-- **Images**: JPG, PNG (OCR extraction)
-- **Audio**: Microphone input (Whisper)
+- **文本**：PDF、DOCX、TXT、CSV、XLSX
+- **图片**：JPG、PNG（OCR 识别）
+- **音频**：麦克风输入（Whisper）
 
-## Security
+## 安全性
 
-- **Never commit your `.env` file or API keys to public repositories.**
-- `.gitignore` is configured to exclude sensitive and unnecessary files.
+- **切勿将你的 `.env` 文件或 API 密钥提交到公共仓库。**
+- `.gitignore` 已配置排除敏感和不必要的文件。
 
-## Requirements
+## 环境要求
 
-- Python 3.8+
-- OpenAI API key
-- SerpAPI key (for web search)
-- [See `requirements.txt` for all dependencies]
+- Python 3.8 及以上
+- OpenAI API 密钥
+- SerpAPI 密钥（用于网页搜索）
+- [所有依赖见 `requirements.txt`]
 
-## Project Structure
+## 项目结构
 
 ```
 self-gpt/
@@ -80,14 +80,14 @@ self-gpt/
 └── ...
 ```
 
-## Acknowledgements
+## 鸣谢
 
 - [OpenAI](https://openai.com/)
 - [Streamlit](https://streamlit.io/)
 - [SerpAPI](https://serpapi.com/)
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR)
-- [PyPDF2, python-docx, pandas, etc.]
+- [PyPDF2, python-docx, pandas 等]
 
 ---
 
-Let me know if you want to add badges, usage GIFs, or more sections!
+如需添加徽章、使用演示 GIF 或更多内容，欢迎告知！
