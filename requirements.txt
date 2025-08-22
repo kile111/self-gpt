@@ -1,0 +1,9 @@
+streamlit
+openai
+python-dotenv
+PyPDF2
+python-docx
+pandas
+pytesseract
+Pillow
+easyocr

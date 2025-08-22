@@ -1,0 +1,22 @@
+﻿# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+
+# Environment variables
+.env
+
+# Audio files
+*.mp3
+*.wav
+
+# Temp files
+temp*
+output*
+
+# IDE
+.vscode/
+
+# Data files
+chat_memory.json
